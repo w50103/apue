@@ -1,0 +1,2609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="apue"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/private/var/www/apue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/private/var/www/apue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/private/var/www/apue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="apue">
+				<Option output="/private/var/www/apue/cmake-build-debug/apue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/private/var/www/apue/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 apue"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="apue/fast">
+				<Option output="/private/var/www/apue/cmake-build-debug/apue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/private/var/www/apue/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 apue/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/private/var/www/apue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/private/var/www/apue/CMakeLists.txt">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/DISCLAIMER">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/Make.defines.freebsd">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/Make.defines.linux">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/Make.defines.macos">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/Make.defines.solaris">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/Makefile">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/README">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/catgetmsg.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/devzero">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/devzero.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/mcopy">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/mcopy.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/nonblockw">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/nonblockw.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/pendlock">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/pendlock.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/advio/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/call">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/call.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/call.h">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/call.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/escape.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/escape.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/loop.poll.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/loop.poll.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/main.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/main.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/put.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/put.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/take.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/take.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/takeput.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/call/takeput.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/calld">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/calld.h">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/childdial.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/childdial.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/cliargs.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/cliargs.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/client.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/client.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/ctlstr.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/ctlstr.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/debug.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/debug.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/devfile.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/devfile.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/dialfile.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/dialfile.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/expectstr.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/expectstr.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/lock.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/lock.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/loop.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/loop.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/main.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/main.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/request.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/request.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/sendstr.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/sendstr.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/sigchld.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/sigchld.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/sysfile.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/sysfile.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/ttydial.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/ttydial.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/ttyopen.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/calld/ttyopen.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/cmake-build-debug/CMakeCache.txt">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/cmake-build-debug/Makefile">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/cmake-build-debug/apue_2e.cbp">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/cmake-build-debug/cmake_install.cmake">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/init.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/init.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/lockfile.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/lockfile.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/reread.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/reread.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/reread2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/reread2.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/single.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/single.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/daemons/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/datafiles/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/datafiles/getpwnam.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/datafiles/getpwnam.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/datafiles/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/datafiles/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/datafiles/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/apue_db.h">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/db.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/db.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/libapue_db.a">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/t4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/t4.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/db/t4.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/cmd1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/cmd2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/doatexit">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/doatexit.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/getrlimit.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/hello1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/opendata.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/testjmp">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/testjmp.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/environ/testjmp.opt">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/asyncsocket.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/asyncsocket.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/getlogin">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/getlogin.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/getpw44bsd">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/getpw44bsd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/getpwsvr4.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/goodexit">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/goodexit.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/goodexit.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/openmax.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/openmax.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/prtime.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/sizepipe">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/sizepipe.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/sleep.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/sleep.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/sleepus_poll.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/sleepus_poll.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/sleepus_select.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/sleepus_select.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/exercises/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig1.10">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig1.3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig1.4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig1.5">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig1.6">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig1.7">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig1.8">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig1.9">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.10">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.14">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.15">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.18">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.19">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.20">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.22">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.23">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.24">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.25">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.26">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.28">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.29">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.30">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.5">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.6">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.7">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.8">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig10.9">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig11.10">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig11.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig11.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig11.13">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig11.14">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig11.2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig11.3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig11.4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig11.5">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig12.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig12.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig12.13">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig12.16">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig12.17">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig12.4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig12.8">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig13.1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig13.6">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig13.7">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig13.8">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.16">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.17">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.18">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.19">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.29a">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.29b">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.32">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.5">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.6">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.7">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig14.9">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.14">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.15">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.17">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.18">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.19">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.31">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.33">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.5">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.6">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig15.7">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig16.10">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig16.14">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig16.15">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig16.16">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig16.17">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig16.18">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig16.20">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig16.8">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig16.9">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.10">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.13">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.14">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.15">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.16">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.17">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.19">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.20">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.21">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.22">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.23">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.24">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.25">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.26">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.27">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.28">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.29">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.30">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.31">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.32">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.33">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.34">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.35">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.36">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.37">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.38">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.39">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.40">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig17.6">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.10">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.13">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.14">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.15">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.16">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.17">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.18">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.20">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.21">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig18.22">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig19.10">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig19.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig19.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig19.13">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig19.17">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig19.8">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig19.9">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig2.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig2.13">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig2.15">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig2.16">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig20.3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig3.1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig3.10">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig3.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig3.2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig3.4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig4.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig4.16">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig4.21">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig4.22">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig4.23">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig4.24">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig4.25">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig4.3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig4.8">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig4.9">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig5.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig5.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig5.13">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig5.4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig5.5">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig6.2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig7.1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig7.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig7.13">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig7.14">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig7.16">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig7.3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig7.4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig7.9">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.13">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.16">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.17">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.20">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.21">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.22">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.23">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.24">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.25">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.28">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.29">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.30">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.5">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.6">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig8.8">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/fig9.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figB.1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figB.3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figB.4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.11">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.12">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.13">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.14">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.15">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.16">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.17">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.18">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.20">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.21">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.5">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.6">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.7">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/figC.9">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/access">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/access.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/cdpwd">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/cdpwd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/changemod">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/changemod.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/devrdev">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/devrdev.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/fileflags">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/fileflags.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/filetype">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/filetype.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/ftw4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/ftw4.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/hello">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/hello.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/hole">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/hole.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/longpath">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/longpath.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/ls1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/ls1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/mycd">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/mycd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/seek">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/seek.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/testerror">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/testerror.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/uidgid">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/uidgid.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/umask">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/umask.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/unlink">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/unlink.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/zap">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/file/zap.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/include/apue.h">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/intro/a.out">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/intro/test.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/add2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/add2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/add2stdio">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/add2stdio.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/fifo1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/fifo1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/myuclc">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/myuclc.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/pipe1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/pipe1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/pipe2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/pipe2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/pipe4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/pipe4.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/popen1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/popen1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/popen2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/popen2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/spipe4">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/spipe4.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/tellwait.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/tellwait.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/tshm">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipc/tshm.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/ipp.h">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/print">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/print.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/print.h">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/print.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/printd">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/printd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/printd.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/util.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/ipp/util.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/bsd_ptyopen.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/bufargs.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/bufargs.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/cliconn.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/cliconn.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/clrfl.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/clrfl.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/daemonize.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/daemonize.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/error.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/error.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/errorlog.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/errorlog.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/libapue.a">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/linux_ptyopen.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/lockreg.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/lockreg.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/locktest.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/locktest.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/nspipe.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/openmax.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/openmax.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/pathalloc.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/pathalloc.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/popen.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/popen.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/prexit.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/prexit.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/prmask.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/prmask.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/ptyfork.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/ptyfork.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/ptyopen.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/ptyopen.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/readn.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/readn.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/recvfd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/recvfd.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/semaph.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/senderr.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/senderr.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/sendfd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/sendfd.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/servaccept.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/servaccept.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/servlisten.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/servlisten.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/setfl.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/setfl.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/signal.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/signal.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/signalintr.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/signalintr.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/sleep.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/sleepus.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/sleepus.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/spipe.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/spipe.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/tellwait.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/tellwait.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/ttymodes.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/ttymodes.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/writen.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lib/writen.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lock/deadlock">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lock/deadlock.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lock/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lock/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lock/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lock/mandatory">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lock/mandatory.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/lock/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/mycat/fgetsfputs">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/mycat/fgetsfputs.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/mycat/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/mycat/getcputc">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/mycat/getcputc.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/mycat/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/mycat/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/mycat/mycat">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/mycat/mycat.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/mycat/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open.fe/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open.fe/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open.fe/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open.fe/main.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open.fe/main.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open.fe/open.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open.fe/open.h">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open.fe/open.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open.fe/openclient">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open.fe/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open/main.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open/open.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open/open.h">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open/open.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open/openclient">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/open/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/cliargs.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/cliargs.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/main.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/main.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/opend">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/opend.h">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/request.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/request.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend.fe/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/cliargs.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/client.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/client.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/loop.poll.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/loop.poll.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/loop.select.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/loop.select.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/main.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/main.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/opend.h">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/opend.poll">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/opend.select">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/request.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/request.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/opend/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/awkexample">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/echoall">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/echoall.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/echoarg">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/echoarg.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/exec1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/exec1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/exec2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/exec2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/fork1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/fork1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/fork2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/fork2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/pracct">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/pracct.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/pruids">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/pruids.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/shell1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/shell1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/shell2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/shell2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/system.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/system.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/systest1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/systest1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/systest1.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/systest2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/systest2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/systest2.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/systest3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/systest3.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/tellwait1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/tellwait1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/tellwait2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/tellwait2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/test1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/test1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/times1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/times1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/vfork1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/vfork1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/vfork3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/vfork3.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/wait1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/wait1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/zombie">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/proc/zombie.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/driver.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/driver.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/loop.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/loop.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/main.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/main.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/pty">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/pty/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sess/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sess/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sess/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sess/orphan3">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sess/orphan3.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sess/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/abort.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/abort.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/child.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/critical">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/critical.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/mask">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/mask.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/read1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/read1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/read2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/read2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/reenter">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/reenter.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/setops.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/sigtstp">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/sigtstp.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/sigusr">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/sigusr.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/sleep1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/sleep1.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/sleep2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/sleep2.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/suspend1">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/suspend1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/suspend2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/suspend2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/system.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/system.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/tsleep2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/tsleep2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/signals/tsleep2.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/bindunix">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/bindunix.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/bo">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/bo.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/clconn.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/clconn.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/cliconn.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/cliconn.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/findsvc">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/findsvc.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/initsrv1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/initsrv1.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/initsrv2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/initsrv2.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/recvfd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/recvfd.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/recvfd2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptime">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptime-dg">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptime-dg.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptime.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptime.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptimed">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptimed-dg">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptimed-dg.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptimed-dg.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptimed-fd">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptimed-fd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptimed-fd.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptimed.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/ruptimed.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/sendfd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/sendfd.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/sendfd2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/servaccept.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/servaccept.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/servlisten.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/servlisten.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/spipe.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/sockets/spipe.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/conf">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/conf.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/conf.c.modified">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/makeconf.awk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/makeopt.awk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/options">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/options.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/pathconf.sym">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/pathopt.sym">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/sysconf.sym">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/std/sysopt.sym">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/stdio/buf">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/stdio/buf.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/stdio/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/stdio/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/stdio/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/stdio/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/stdio/tempfiles">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/stdio/tempfiles.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/stdio/tempnam">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/stdio/tempnam.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/cliconn.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/isastream.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/ptyopen.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/recvfd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/sendfd.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/servaccept.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/servlisten.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/spipe.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/strlist.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/streams/t_isastream.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/systype.sh">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/csize">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/csize.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/ctermid.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/ctermid.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/getpass.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/getpass.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/isatty.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/isatty.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/settty">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/settty.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_getpass">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_getpass.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_getpass.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_isatty">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_isatty.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_isatty.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_raw">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_raw.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_ttyname">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_ttyname.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/t_ttyname.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/ttyname.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/ttyname.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/winch">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/termios/winch.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/atfork">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/atfork.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/detach.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/detach.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/getenv1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/getenv1.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/getenv2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/getenv2.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/getenv3.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/getenv3.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/suspend">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/suspend.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/timeout">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/timeout.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threadctl/timeout.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/badexit2">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/badexit2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/cleanup">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/cleanup.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/condvar.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/condvar.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/exitstatus">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/exitstatus.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/freebsd.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/linux.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/macos.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/mutex1.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/mutex1.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/mutex2.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/mutex2.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/mutex3.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/mutex3.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/rwlock.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/rwlock.o">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/solaris.mk">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/threadid">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/threads/threadid.c">
+			<Option target="apue"/>
+		</Unit>
+		<Unit filename="/private/var/www/apue/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
